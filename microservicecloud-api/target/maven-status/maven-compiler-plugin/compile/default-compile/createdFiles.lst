@@ -1,0 +1,4 @@
+com\buba\service\DeptClientServiceFallbackFactory.class
+com\buba\pojo\Dept.class
+com\buba\service\DepartClientServcie.class
+com\buba\service\DeptClientServiceFallbackFactory$1.class
