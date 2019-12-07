@@ -11,6 +11,7 @@
         <module name="microservicecloud-eureka-7003" />
         <module name="microservicecloudeureka7002" />
         <module name="microservicecloudeureka7001" />
+        <module name="microservicecloudzuulgateway9527" />
         <module name="microservicecloudproviderdept8003" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudproviderdepthystrix8001" />
