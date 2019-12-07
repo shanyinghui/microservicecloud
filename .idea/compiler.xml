@@ -8,14 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloudproviderdept8002" />
         <module name="microservicecloudproviderdept8001" />
-        <module name="microservicecloudproviderdepthystrix8001" />
         <module name="microservicecloud-eureka-7003" />
         <module name="microservicecloudeureka7002" />
         <module name="microservicecloudeureka7001" />
-        <module name="microservicecloudconsumerdept80" />
-        <module name="microservicecloudapi" />
-        <module name="microservicecloudconsumerdeptfeign" />
         <module name="microservicecloudproviderdept8003" />
+        <module name="microservicecloudapi" />
+        <module name="microservicecloudproviderdepthystrix8001" />
+        <module name="microservicecloudconsumerdeptfeign" />
+        <module name="microservicecloudconsumerdept80" />
       </profile>
     </annotationProcessing>
   </component>
