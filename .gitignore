@@ -4,11 +4,10 @@
 
 # IntelliJ project files
 .idea
-target
 *.iml
 out
 gen
-
+target
 
 
 
