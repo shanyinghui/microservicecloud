@@ -1,5 +1,6 @@
 package com.buba.controller;
 
+import com.buba.annotation.Log;
 import com.buba.pojo.Dept;
 import com.buba.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,16 +15,16 @@ public class DeptController {
     DeptService service;
 
     @PostMapping(value="/dept")
-    public boolean add(@RequestBody Dept dept)
-    {
+    public boolean add(@RequestBody Dept dept) {
         return service.add(dept);
     }
-    @GetMapping(value="/dept/{id}")
-    public Dept get(@PathVariable("id") Long id)
-    {
 
+    @GetMapping(value="/dept/{id}")
+    @Log
+    public Dept get(@PathVariable("id") Long id) {
         return service.get(id);
     }
+
     @GetMapping(value="/dept")
     public List list()
     {
